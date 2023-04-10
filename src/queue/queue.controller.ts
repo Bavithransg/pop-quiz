@@ -30,7 +30,7 @@ async popQue(
  return this.queService.pop();
 }
 
-@Get('pop')
+@Get('peek')
 async peek(    
 ): Promise <any>{
  return this.queService.peek();
